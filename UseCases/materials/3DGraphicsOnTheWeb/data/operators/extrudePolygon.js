@@ -9,7 +9,9 @@ var XML3D = XML3D || {};
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
-// ported from http://www.flipcode.com/archives/Efficient_Polygon_Triangulation.shtml
+// adapted from https://code.google.com/p/codesuppository/source/browse/trunk/old_snippets/triangulate.cpp
+// orignal code by John W. Ratcliff made available under MIT license
+
 var Triangulate = function(contour) {
 	
 	this.contour = contour;
